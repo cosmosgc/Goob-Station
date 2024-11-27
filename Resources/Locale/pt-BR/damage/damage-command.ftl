@@ -3,8 +3,8 @@
 damage-command-description = Add or remove damage to an entity.
 damage-command-help = Usage: { $command } <type/group> <amount> [ignoreResistances] [uid]
 damage-command-arg-type = <damage type or group>
-damage-command-arg-quantity = [quantity]
-damage-command-arg-target = [target euid]
+damage-command-arg-quantity = %ERASE_NEWLINE%[quantity]
+damage-command-arg-target = %ERASE_NEWLINE%[target euid]
 damage-command-error-type = { $arg } is not a valid damage group or type.
 damage-command-error-euid = { $arg } is not a valid entity uid.
 damage-command-error-quantity = { $arg } is not a valid quantity.

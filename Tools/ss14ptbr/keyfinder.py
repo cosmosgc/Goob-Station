@@ -133,10 +133,6 @@ class KeyFinder:
         from googletrans import Translator
         translator = Translator()
 
-        # Regular expression to check for placeholders like %SOME_VAR%, %LOC_STRING%, etc.
-        if re.search(r'%\w+%', text):
-            logger.info(f'Pulando por causa de placeholder: "{text}"')
-            return text  # Return the original text without translation
         # Skip translation for empty or whitespace-only strings
         if not text.strip():
             logger.warn(f'Pulando por ser vazio: "{text}"')
@@ -151,6 +147,8 @@ class KeyFinder:
         if len(text.split()) == 1:
             logger.warn(f'Pulando por ser uma única palavra: "{text}"')
             return text
+        
+        text = re.sub(r'%\w+%', '', text)
 
         # Capture leading and trailing whitespace
         leading_spaces = len(text) - len(text.lstrip())  # Count leading spaces

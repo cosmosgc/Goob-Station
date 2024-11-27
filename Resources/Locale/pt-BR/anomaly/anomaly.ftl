@@ -67,12 +67,12 @@ anomaly-command-supercritical = Makes a target anomaly go supercritical
 # Flavor text on the footer
 anomaly-generator-flavor-left = Anomaly may spawn inside the operator.
 anomaly-generator-flavor-right = v1.1
-anomaly-behavior-unknown = [color=red]ERROR. Cannot be read.[/color]
+anomaly-behavior-unknown = %ERASE_NEWLINE%[color=red]ERROR. Cannot be read.[/color]
 anomaly-behavior-title = behavior deviation analysis:
-anomaly-behavior-point = [color=gold]Anomaly produces { $mod }% of the points[/color]
-anomaly-behavior-safe = [color=forestgreen]The anomaly is extremely stable. Extremely rare pulsations.[/color]
-anomaly-behavior-slow = [color=forestgreen]The frequency of pulsations is much less frequent.[/color]
-anomaly-behavior-light = [color=forestgreen]Pulsation power is significantly reduced.[/color]
+anomaly-behavior-point = %ERASE_NEWLINE%[color=gold]Anomaly produces { $mod }% of the points[/color]
+anomaly-behavior-safe = %ERASE_NEWLINE%[color=forestgreen]The anomaly is extremely stable. Extremely rare pulsations.[/color]
+anomaly-behavior-slow = %ERASE_NEWLINE%[color=forestgreen]The frequency of pulsations is much less frequent.[/color]
+anomaly-behavior-light = %ERASE_NEWLINE%[color=forestgreen]Pulsation power is significantly reduced.[/color]
 anomaly-behavior-balanced = No behavior deviations detected.
 anomaly-behavior-delayed-force = The frequency of pulsations is greatly reduced, but their power is increased.
 anomaly-behavior-rapid = The frequency of the pulsation is much higher, but its strength is attenuated.
@@ -81,7 +81,7 @@ anomaly-behavior-nonsensivity = A weak reaction to particles was detected.
 anomaly-behavior-sensivity = Amplified reaction to particles was detected.
 anomaly-behavior-invisibility = Light wave distortion has been detected.
 anomaly-behavior-secret = Interference detected. Some data cannot be read
-anomaly-behavior-inconstancy = [color=crimson]Impermanence has been detected. Particle types can change over time.[/color]
-anomaly-behavior-fast = [color=crimson]The pulsation frequency is strongly increased.[/color]
-anomaly-behavior-strenght = [color=crimson]The pulsation power is significantly increased.[/color]
-anomaly-behavior-moving = [color=crimson]Coordinate instability was detected.[/color]
+anomaly-behavior-inconstancy = %ERASE_NEWLINE%[color=crimson]Impermanence has been detected. Particle types can change over time.[/color]
+anomaly-behavior-fast = %ERASE_NEWLINE%[color=crimson]The pulsation frequency is strongly increased.[/color]
+anomaly-behavior-strenght = %ERASE_NEWLINE%[color=crimson]The pulsation power is significantly increased.[/color]
+anomaly-behavior-moving = %ERASE_NEWLINE%[color=crimson]Coordinate instability was detected.[/color]

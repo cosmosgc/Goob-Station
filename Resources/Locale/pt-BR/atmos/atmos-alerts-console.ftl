@@ -1,5 +1,5 @@
 atmos-alerts-window-title = Atmospheric Alerts Computer
-atmos-alerts-window-station-name = [color=white][font size=14]{ $stationName }[/font][/color]
+atmos-alerts-window-station-name = %ERASE_NEWLINE%[color=white][font size=14]{ $stationName }[/font][/color]
 atmos-alerts-window-unknown-location = Unknown location
 atmos-alerts-window-tab-no-alerts = Alerts
 atmos-alerts-window-tab-alerts = Alerts ({ $value })
@@ -21,7 +21,7 @@ atmos-alerts-window-normal-state = Normal
 atmos-alerts-window-warning-state = Warning
 atmos-alerts-window-danger-state = Danger!
 atmos-alerts-window-invalid-state = Inactive
-atmos-alerts-window-no-active-alerts = [font size=16][color=white]No active alerts -[/color] [color={ $color }]Situation normal[/color][/font]
+atmos-alerts-window-no-active-alerts = %ERASE_NEWLINE%[font size=16][color=white]No active alerts -[/color] [color={ $color }]Situation normal[/color][/font]
 atmos-alerts-window-no-data-available = No data available
 atmos-alerts-window-alerts-being-silenced = Silencing alerts...
 atmos-alerts-window-toggle-overlays = Toggle alarm display

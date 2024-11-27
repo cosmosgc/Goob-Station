@@ -14,22 +14,23 @@ log-probe-program-name = LogProbe
 log-probe-scan = Downloaded logs from { $device }!
 log-probe-label-time = Time
 log-probe-label-accessor = Accessed by
-log-probe-label-number = #
+log-probe-label-number = %ERASE_NEWLINE%#
 astro-nav-program-name = AstroNav
 med-tek-program-name = MedTek
 # Wanted list cartridge
 wanted-list-program-name = Wanted list
 wanted-list-label-no-records = It's all right, cowboy
 wanted-list-search-placeholder = Search by name and status
-wanted-list-age-label = [color=darkgray]Age:[/color] [color=white]{ $age }[/color]
-wanted-list-job-label = [color=darkgray]Job:[/color] [color=white]{ $job }[/color]
-wanted-list-species-label = [color=darkgray]Species:[/color] [color=white]{ $species }[/color]
-wanted-list-gender-label = [color=darkgray]Gender:[/color] [color=white]{ $gender }[/color]
-wanted-list-reason-label = [color=darkgray]Reason:[/color] [color=white]{ $reason }[/color]
+wanted-list-age-label = %ERASE_NEWLINE%[color=darkgray]Age:[/color] [color=white]{ $age }[/color]
+wanted-list-job-label = %ERASE_NEWLINE%[color=darkgray]Job:[/color] [color=white]{ $job }[/color]
+wanted-list-species-label = %ERASE_NEWLINE%[color=darkgray]Species:[/color] [color=white]{ $species }[/color]
+wanted-list-gender-label = %ERASE_NEWLINE%[color=darkgray]Gender:[/color] [color=white]{ $gender }[/color]
+wanted-list-reason-label = %ERASE_NEWLINE%[color=darkgray]Reason:[/color] [color=white]{ $reason }[/color]
 wanted-list-unknown-reason-label = unknown reason
-wanted-list-initiator-label = [color=darkgray]Initiator:[/color] [color=white]{ $initiator }[/color]
+wanted-list-initiator-label = %ERASE_NEWLINE%[color=darkgray]Initiator:[/color] [color=white]{ $initiator }[/color]
 wanted-list-unknown-initiator-label = unknown initiator
-wanted-list-status-label = [color=darkgray]status:[/color] { $status ->
+wanted-list-status-label =
+    %ERASE_NEWLINE%[color=darkgray]status:[/color] { $status ->
         [suspected] [color=yellow]suspected[/color]
         [wanted] [color=red]wanted[/color]
         [detained] [color=#b18644]detained[/color]

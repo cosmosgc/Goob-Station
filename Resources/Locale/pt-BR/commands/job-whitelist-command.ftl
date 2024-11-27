@@ -1,7 +1,7 @@
 cmd-jobwhitelist-job-does-not-exist = Job { $job } does not exist.
 cmd-jobwhitelist-player-not-found = Player { $player } not found.
-cmd-jobwhitelist-hint-player = [player]
-cmd-jobwhitelist-hint-job = [job]
+cmd-jobwhitelist-hint-player = %ERASE_NEWLINE%[player]
+cmd-jobwhitelist-hint-job = %ERASE_NEWLINE%[job]
 cmd-jobwhitelistadd-desc = Lets a player play a whitelisted job.
 cmd-jobwhitelistadd-help = Usage: jobwhitelistadd <username> <job>
 cmd-jobwhitelistadd-already-whitelisted = { $player } is already whitelisted to play as { $jobId } .({ $jobName }).
