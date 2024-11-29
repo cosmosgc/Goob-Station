@@ -10,9 +10,9 @@ bounty-console-manifest-entry =
        *[other] { $item } x{ $amount }
     }
 bounty-console-manifest-reward = Reward: ${ $reward }
-bounty-console-description-label = %ERASE_NEWLINE%[color=gray]{ $description }[/color]
+bounty-console-description-label = [color=gray]{ $description }[/color]
 bounty-console-id-label = ID#{ $id }
 bounty-console-flavor-left = Bounties sourced from local unscrupulous dealers.
 bounty-console-flavor-right = v1.4
-bounty-manifest-header = %ERASE_NEWLINE%[font size=14][bold]Official cargo bounty manifest[/bold] (ID#{ $id })[/font]
+bounty-manifest-header = [font size=14][bold]Official cargo bounty manifest[/bold] (ID#{ $id })[/font]
 bounty-manifest-list-start = Item manifest:

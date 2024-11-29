@@ -13,8 +13,8 @@ criminal-records-status-detained = Detained
 criminal-records-status-suspected = Suspect
 criminal-records-status-discharged = Discharged
 criminal-records-status-paroled = Paroled
-criminal-records-console-wanted-reason = %ERASE_NEWLINE%[color=gray]Wanted Reason[/color]
-criminal-records-console-suspected-reason = %ERASE_NEWLINE%[color=gray]Suspected Reason[/color]
+criminal-records-console-wanted-reason = [color=gray]Wanted Reason[/color]
+criminal-records-console-suspected-reason = [color=gray]Suspected Reason[/color]
 criminal-records-console-reason = Reason
 criminal-records-console-reason-placeholder = For example: { $placeholder }
 

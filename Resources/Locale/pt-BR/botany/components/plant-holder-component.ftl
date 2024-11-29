@@ -16,7 +16,7 @@ plant-holder-component-take-sample-message = You take a sample from the { $seedN
 plant-holder-component-compost-message = You compost { $usingItem } into { $owner }.
 plant-holder-component-compost-others-message = { $user } composts { $usingItem } into { $owner }.
 plant-holder-component-nothing-planted-message = It has nothing planted in it..
-plant-holder-component-something-already-growing-message = %ERASE_NEWLINE%[color=green]{ $seedName }[/color] { $toBeForm } growing here.
+plant-holder-component-something-already-growing-message = [color=green]{ $seedName }[/color] { $toBeForm } growing here.
 plant-holder-component-something-already-growing-low-health-message = The plant looks [color=red]{ $healthState }[/color].
 plant-holder-component-plant-old-adjective = old and wilting
 plant-holder-component-plant-unhealthy-adjective = unhealthy

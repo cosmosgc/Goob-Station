@@ -7,7 +7,7 @@ cmd-grant_connect_bypass-help =
     The bypass only applies to this game server and will expire after (by default) 1 hour.
     They will be able to join regardless of whitelist, panic bunker, or player cap.
 cmd-grant_connect_bypass-arg-user = <user>
-cmd-grant_connect_bypass-arg-duration = %ERASE_NEWLINE%[duration minutes]
+cmd-grant_connect_bypass-arg-duration = [duration minutes]
 cmd-grant_connect_bypass-invalid-args = Expected 1 or 2 arguments
 cmd-grant_connect_bypass-unknown-user = Unable to find user '{ $user }'
 cmd-grant_connect_bypass-invalid-duration = Invalid duration '{ $duration }'

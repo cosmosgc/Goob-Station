@@ -23,11 +23,10 @@ admin-notes-hide = Hide
 admin-notes-delete-confirm = Confirm delete
 admin-notes-edited = Last edit by { $author } on { $date }
 admin-notes-unbanned = Unbanned by { $admin } on { $date }
-admin-notes-message-desc =
-    %ERASE_NEWLINE%[color=white]You have received { $count ->
-        [1] an administrative message
-       *[other] administrative messages
-    } since the last time you played on this server.[/color]
+admin-notes-message-desc = [color=white]You have received { $count ->
+    [1] an administrative message
+    *[other] administrative messages
+} since the last time you played on this server.[/color]
 admin-notes-message-admin = From [bold]{ $admin }[/bold], written on { TOSTRING($date, "f") }:
 admin-notes-message-wait = The accept button will be enabled after { $time } seconds.
 admin-notes-message-accept = Dismiss permanently
@@ -68,10 +67,10 @@ admin-notes-verb-text = Open Admin Notes
 # Watchlist and message login
 admin-notes-watchlist = Watchlist for { $player }: { $message }
 admin-notes-new-message = You've received an admin message from { $admin }: { $message }
-admin-notes-fallback-admin-name = %ERASE_NEWLINE%[System]
+admin-notes-fallback-admin-name = [System]
 # Admin remarks
 admin-remarks-command-description = Opens the admin remarks page
 admin-remarks-command-error = Admin remarks have been disabled
 admin-remarks-title = Admin remarks
 # Misc
-system-user = %ERASE_NEWLINE%[System]
+system-user = [System]

@@ -31,8 +31,8 @@ network-configurator-tooltip-clear = Clear targets device list
 network-configurator-tooltip-copy = Copy targets device list to held tool
 network-configurator-tooltip-show = Show a holographic visualization of targets device list
 # examine
-network-configurator-examine-mode-link = %ERASE_NEWLINE%[color=red]Link[/color]
-network-configurator-examine-mode-list = %ERASE_NEWLINE%[color=green]List[/color]
+network-configurator-examine-mode-link = [color=red]Link[/color]
+network-configurator-examine-mode-list = [color=green]List[/color]
 network-configurator-examine-current-mode = Current mode: { $mode }
 network-configurator-examine-switch-modes = Press { $key } to switch modes
 # item status

@@ -44,4 +44,4 @@ shell-argument-map-id-invalid = Argument { $index } must be a valid map id!
 shell-argument-number-invalid = Argument { $index } must be a valid number!
 # Hints
 shell-argument-username-hint = <username>
-shell-argument-username-optional-hint = %ERASE_NEWLINE%[username]
+shell-argument-username-optional-hint = [username]
